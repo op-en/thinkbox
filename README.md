@@ -12,3 +12,7 @@ Copy the code in each file to a file on http://build.particle.io and run!
 All pins on the photon/electron are 5V tolerant except A3 and DAC. So plug your 5V boards right in!
 
 At the top of each file is documentation of where to connect the sensors.
+
+## Backend
+
+A node-red script unpacks the data and saves it in influxdb. See node-red.json.
